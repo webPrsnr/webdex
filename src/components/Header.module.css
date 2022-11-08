@@ -1,0 +1,46 @@
+.outter {
+    position: relative;
+}
+
+.outter::after {
+    content: url("../assets/mask.png");
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    z-index: -1;
+}
+
+.wrapper {
+    max-width: 1360px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.header {
+    margin-top: 60px;
+}
+
+.list {
+    display: flex;
+    gap: 60px;
+}
+
+.li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #2C4776;
+}
+
+.a {
+    color: inherit;
+    text-decoration-line: none;
+    padding: 20px;
+}
+
+.a:hover {
+    background-color: #10A9FF;
+}

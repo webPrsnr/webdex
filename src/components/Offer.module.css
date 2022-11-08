@@ -1,0 +1,83 @@
+.outter {
+    position: relative;
+    margin-top: 200px;
+
+}
+
+.outter::before {
+    content: url("../assets/mask2.png");
+    position: absolute;
+    z-index: -1;
+}
+
+.wrapper {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.sub span {
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 111.69%;
+    color: #B0B0B0;
+}
+
+.main {
+    padding-top: 10px;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 111.69%;
+    text-transform: uppercase;
+    color: #2C4776;
+}
+
+.descr {
+    padding-top: 35px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.container {
+    padding-top: 60px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.element {
+    /* width: 500px;
+    height: 300px; */
+    flex: 1;
+}
+
+.element__step span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 38px;
+    color: #EEEEEE
+}
+
+.element__block {
+    padding-top: 10px;
+    border-left: 2px solid #415373;
+    padding-left: 10px;
+}
+
+.element__name {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 38px;
+    color: #2C4776;
+}
+
+.element__descr {
+    padding-top: 15px;
+}
