@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { Offer } from './components/Offer'
 import { Services } from './components/Sevices'
 import { Work } from './components/Work'
+import {Questions} from "./components/Questions"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       </Header>
       <Offer />
       <Services />
+      <Questions />
       <Footer />    
     </>
   )

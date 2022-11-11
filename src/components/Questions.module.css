@@ -1,0 +1,118 @@
+.wrapper {
+    padding-top: 180px;
+
+}
+
+.outer {
+    background-image: url("../assets/moscow.png");
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.outer::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(65, 83, 115, 0.8);
+}
+
+.inner {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #C2C2C2;
+    border-radius: 10px;
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.inner__main {
+    padding-top: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 111.69%;
+    color: #FFFFFF;
+    z-index: inherit;
+}
+
+.inner__text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: inherit;
+    text-align: center;
+}
+
+.container {
+    padding-top: 35px;
+    display: flex;
+    gap: 15px;
+    z-index: inherit;
+}
+
+.container__left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px
+}
+
+.container__left_text {
+    width: 340px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid #C2C2C2;
+    border-radius: 10px;
+    z-index: inherit;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container__left_text::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+.container__right_text {
+    width: 530px;
+    height: 135px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 2px solid #C2C2C2;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    color: white
+}
+
+.container__right_text::placeholder {
+    color: white;
+    padding-left: 20px;
+}
+
+.container__btn {
+    margin-top: 15px;
+    padding: 10px 75px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #C2C2C2;
+    border-radius: 10px;
+    z-index: inherit;
+    color: white
+}
