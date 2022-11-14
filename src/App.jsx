@@ -5,6 +5,7 @@ import { Offer } from './components/Offer'
 import { Services } from './components/Sevices'
 import { Work } from './components/Work'
 import {Questions} from "./components/Questions"
+import { Pricing } from './components/Pricing'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <Offer />
       <Services />
       <Questions />
-      <Footer />    
+      <Pricing />
+      <Footer />
     </>
   )
 }

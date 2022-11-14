@@ -1,0 +1,120 @@
+.wrapper {
+    padding-top: 150px;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.head__sub {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 111.69%;
+    color: #B0B0B0;
+}
+
+.head__main {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 111.69%;
+    text-transform: uppercase;
+    color: #2C4776;
+}
+
+.head__descr {
+    padding-top: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 38px;
+    color: #3F3E3E;
+}
+
+.container {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.container__area {
+    position: relative;
+    padding-left: 35px;
+}
+
+.container__img {
+    background-image: url("../assets/vim1.png");
+    background-repeat: no-repeat;
+    width: 674px;
+    height: 341px;
+    border-radius: 25px;
+    position: relative;
+    /* background-position: center; */
+    /* background-size: contain; */
+}
+
+.container__price {
+    background-color: #415373;
+    position: absolute;
+    content: "";
+    right: 1px;
+    margin: 40px;
+    color: #fff;
+    z-index: 999;
+    font-family: 'Roboto';
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.container__img::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(65, 83, 115, 0.8);
+    border-radius: 25px;
+}
+
+.container__descr {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 1px;
+    background-color: rgba(254, 255, 255, 0.8);
+    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    max-width: 440px;
+}
+
+
+
+.descr__head {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 111.69%;
+    /* or 31px */
+    color: #2C4776;
+}
+
+.descr__sub {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #2C4776;
+}
+
+.container__img_vim {
+    background-image: url("../assets/vim2.png");
+}
