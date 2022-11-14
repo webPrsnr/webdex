@@ -7,7 +7,7 @@ import { Work } from './components/Work'
 import {Questions} from "./components/Questions"
 import { Pricing } from './components/Pricing'
 
-function App() {
+export const App = () => {
 
   return (
     <>
@@ -23,4 +23,3 @@ function App() {
   )
 }
 
-export default App

@@ -1,0 +1,58 @@
+.wrapper {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+
+.line {
+    background: #D8D8D8;
+    border: 1px solid #000000;
+}
+
+.head {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+}
+
+.contacts {
+    padding-top: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.contacts__el {
+    position: relative;
+    padding-left: 25px;
+}
+
+.contact::before {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+
+.contact__name::before {
+    content: url('../assets/card_travel.svg');
+}
+
+.contact__INN::before {
+    content: url('../assets/done.svg');
+}
+
+.contact__address::before {
+    content: url('../assets/Periscope.svg');
+}
+
+.contact__mail::before {
+    content: url('../assets/mail_outline.svg');
+}
+
+.contact__time::before {
+    content: url('../assets/alarm.svg');
+}
