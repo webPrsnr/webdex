@@ -47,7 +47,7 @@ export const Services = () => {
     }
 
     return(
-        <section className={srvc.outer}>
+        <section id="services" className={srvc.outer}>
             <div className={srvc.wrapper}>
                 <div className={srvc.sub}><span>Что мы</span></div>
                 <h3 className={srvc.main}>Предлагаем</h3>

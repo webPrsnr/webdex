@@ -2,7 +2,7 @@ import ofr from "./Offer.module.css"
 
 export const Offer = () => {
     return(
-        <section className={ofr.outter}>
+        <section id="offer" className={ofr.outter}>
             <div className={ofr.wrapper}>
                 <div className={ofr.sub}><span>Как мы</span></div>
                 <h3 className={ofr.main}>Работаем</h3>

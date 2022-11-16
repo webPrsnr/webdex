@@ -6,7 +6,7 @@ export const Work = () => {
             <div className={wrk.main__wrapper}>
                 <div className={wrk.text}>
                     <div><span className={wrk.sub__text}>Поможем найти работника!</span></div>
-                    <div className={wrk.main__text}><h1>Удобный комплекс услуг <span>рекрутинга</span></h1></div>
+                    <div className={wrk.main__text}><h1>Комплекс услуг <span>рекрутинга</span></h1></div>
                     <ul className={wrk.list}>
                         <li>Предоставляем спектр услуг по мониторингу резюме</li>
                         <li>Удобный парсинг на любых сервисов по поиску сотрудников</li>
@@ -14,7 +14,7 @@ export const Work = () => {
                         <li>Работаем по подписочной системе</li>
                     </ul>
                 </div>
-                <div className={wrk.phone}><a href="tel+796260232">+7 (962) 601-29-32</a></div>
+                <div className={wrk.phone}><a href="tel+796260232">+7 (962) 600-21-52</a></div>
             </div>
            </section>
 )}

@@ -6,7 +6,7 @@ export const Footer = () => {
             <hr className={ftr.line} />
             <h6 className={ftr.head}>Контакты</h6>
             <ul className={ftr.contacts}>
-                <li className={`${ftr.contacts__el} ${ftr.contact} ${ftr.contact__name}`}>ООО «ВЭДЭКСПРЕСС»</li>
+                <li className={`${ftr.contacts__el} ${ftr.contact} ${ftr.contact__name}`}>ООО «ЭМПИ Кодс»</li>
                 <li className={`${ftr.contacts__el} ${ftr.contact} ${ftr.contact__INN}`}>ИНН 3221337</li>
                 <li className={`${ftr.contacts__el} ${ftr.contact} ${ftr.contact__address}`}>428000, г. Чебоксары, пр-кт Максима Горького 26</li>
                 <li className={`${ftr.contacts__el} ${ftr.contact} ${ftr.contact__mail}`}>info@testexpress.ru</li>
