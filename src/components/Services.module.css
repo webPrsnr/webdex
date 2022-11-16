@@ -27,13 +27,21 @@
 
 .descr {
     padding-top: 35px;
+    line-height: 38px;
+}
+
+.descr__point {
+    color: #2C4776;
+    background-color: #10A9FF;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .offer {
     padding-top: 150px;
     display: flex;
     gap: 75px;
-    padding-right: 270px;
+    /* padding-right: 270px; */
 }
 
 .offer__image_place {
@@ -48,15 +56,19 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: rgba(65, 83, 115, 0.9);
+    background-color: rgba(65, 83, 115, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
 }
 
 .offer__text_place {
-    padding-top: 225px;
+    /* padding-top: 225px; */
     display: flex;
     flex-direction: column;
+}
+
+.offer__image_place img {
+    border-radius: 25px;
 }
 
 .offer__title {
@@ -68,6 +80,7 @@
 
 .offer__nav {
     padding-top: 40px;
+    line-height: 34px;
     flex: 1;
 }
 
